@@ -16,3 +16,4 @@ C:\Users\tienm\OneDrive\Máy tính\HQTCSDL_TH\Adim\Adim\obj\Debug\net6.0-windows
 C:\Users\tienm\OneDrive\Máy tính\HQTCSDL_TH\Adim\Adim\obj\Debug\net6.0-windows\Adim.genruntimeconfig.cache
 C:\Users\tienm\OneDrive\Máy tính\HQTCSDL_TH\Adim\Adim\obj\Debug\net6.0-windows\Adim.adminHome.resources
 C:\Users\tienm\OneDrive\Máy tính\HQTCSDL_TH\Adim\Adim\obj\Debug\net6.0-windows\Adim.XemDanhSachTaiKhoanAdmin.resources
+C:\Users\tienm\OneDrive\Máy tính\HQTCSDL_TH\Adim\Adim\obj\Debug\net6.0-windows\Adim.ThemTaiKhoanAdmin.resources
