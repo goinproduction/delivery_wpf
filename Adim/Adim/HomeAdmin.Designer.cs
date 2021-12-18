@@ -41,7 +41,7 @@
             this.Home_Text_Chucnanghethong.ForeColor = System.Drawing.Color.White;
             this.Home_Text_Chucnanghethong.Location = new System.Drawing.Point(73, 71);
             this.Home_Text_Chucnanghethong.Name = "Home_Text_Chucnanghethong";
-            this.Home_Text_Chucnanghethong.Size = new System.Drawing.Size(429, 48);
+            this.Home_Text_Chucnanghethong.Size = new System.Drawing.Size(336, 39);
             this.Home_Text_Chucnanghethong.TabIndex = 0;
             this.Home_Text_Chucnanghethong.Text = "Chức năng hệ thống";
             // 
@@ -72,17 +72,18 @@
             // 
             // HomeAdminXoaTaiKhoan
             // 
+            this.HomeAdminXoaTaiKhoan.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(194)))), ((int)(((byte)(194)))), ((int)(((byte)(194)))));
             this.HomeAdminXoaTaiKhoan.Font = new System.Drawing.Font("Segoe UI", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.HomeAdminXoaTaiKhoan.Location = new System.Drawing.Point(372, 502);
             this.HomeAdminXoaTaiKhoan.Name = "HomeAdminXoaTaiKhoan";
             this.HomeAdminXoaTaiKhoan.Size = new System.Drawing.Size(362, 78);
             this.HomeAdminXoaTaiKhoan.TabIndex = 3;
             this.HomeAdminXoaTaiKhoan.Text = "Xóa tài khoản";
-            this.HomeAdminXoaTaiKhoan.UseVisualStyleBackColor = true;
+            this.HomeAdminXoaTaiKhoan.UseVisualStyleBackColor = false;
             // 
             // adminHome
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(22)))), ((int)(((byte)(94)))), ((int)(((byte)(107)))));
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;

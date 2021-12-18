@@ -17,3 +17,27 @@ C:\Users\tienm\OneDrive\Máy tính\HQTCSDL_TH\Adim\Adim\obj\Debug\net6.0-windows
 C:\Users\tienm\OneDrive\Máy tính\HQTCSDL_TH\Adim\Adim\obj\Debug\net6.0-windows\Adim.adminHome.resources
 C:\Users\tienm\OneDrive\Máy tính\HQTCSDL_TH\Adim\Adim\obj\Debug\net6.0-windows\Adim.XemDanhSachTaiKhoanAdmin.resources
 C:\Users\tienm\OneDrive\Máy tính\HQTCSDL_TH\Adim\Adim\obj\Debug\net6.0-windows\Adim.ThemTaiKhoanAdmin.resources
+C:\Users\tienm\Desktop\HQTCSDL_TH\Adim\Adim\obj\Debug\net6.0-windows\Adim.csproj.AssemblyReference.cache
+C:\Users\tienm\Desktop\HQTCSDL_TH\Adim\Adim\obj\Debug\net6.0-windows\Adim.dll.config
+C:\Users\tienm\Desktop\HQTCSDL_TH\Adim\Adim\obj\Debug\net6.0-windows\Adim.adminHome.resources
+C:\Users\tienm\Desktop\HQTCSDL_TH\Adim\Adim\obj\Debug\net6.0-windows\Adim.ThemTaiKhoanAdmin.resources
+C:\Users\tienm\Desktop\HQTCSDL_TH\Adim\Adim\obj\Debug\net6.0-windows\Adim.XemDanhSachTaiKhoanAdmin.resources
+C:\Users\tienm\Desktop\HQTCSDL_TH\Adim\Adim\obj\Debug\net6.0-windows\Adim.csproj.GenerateResource.cache
+C:\Users\tienm\Desktop\HQTCSDL_TH\Adim\Adim\obj\Debug\net6.0-windows\Adim.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\tienm\Desktop\HQTCSDL_TH\Adim\Adim\obj\Debug\net6.0-windows\Adim.AssemblyInfoInputs.cache
+C:\Users\tienm\Desktop\HQTCSDL_TH\Adim\Adim\obj\Debug\net6.0-windows\Adim.AssemblyInfo.cs
+C:\Users\tienm\Desktop\HQTCSDL_TH\Adim\Adim\obj\Debug\net6.0-windows\Adim.csproj.CoreCompileInputs.cache
+C:\Users\tienm\Desktop\HQTCSDL_TH\Adim\Adim\obj\Debug\net6.0-windows\Adim.dll
+C:\Users\tienm\Desktop\HQTCSDL_TH\Adim\Adim\obj\Debug\net6.0-windows\ref\Adim.dll
+C:\Users\tienm\Desktop\HQTCSDL_TH\Adim\Adim\obj\Debug\net6.0-windows\Adim.pdb
+C:\Users\tienm\Desktop\HQTCSDL_TH\Adim\Adim\bin\Debug\net6.0-windows\Adim.exe
+C:\Users\tienm\Desktop\HQTCSDL_TH\Adim\Adim\bin\Debug\net6.0-windows\Adim.dll.config
+C:\Users\tienm\Desktop\HQTCSDL_TH\Adim\Adim\bin\Debug\net6.0-windows\Adim.deps.json
+C:\Users\tienm\Desktop\HQTCSDL_TH\Adim\Adim\bin\Debug\net6.0-windows\Adim.runtimeconfig.json
+C:\Users\tienm\Desktop\HQTCSDL_TH\Adim\Adim\bin\Debug\net6.0-windows\Adim.dll
+C:\Users\tienm\Desktop\HQTCSDL_TH\Adim\Adim\bin\Debug\net6.0-windows\ref\Adim.dll
+C:\Users\tienm\Desktop\HQTCSDL_TH\Adim\Adim\bin\Debug\net6.0-windows\Adim.pdb
+C:\Users\tienm\Desktop\HQTCSDL_TH\Adim\Adim\obj\Debug\net6.0-windows\Adim.csproj.SuggestedBindingRedirects.cache
+C:\Users\tienm\Desktop\HQTCSDL_TH\Adim\Adim\obj\Debug\net6.0-windows\Adim.genruntimeconfig.cache
+C:\Users\tienm\Desktop\HQTCSDL_TH\Adim\Adim\obj\Debug\net6.0-windows\Adim.Properties.Resources.resources
+C:\Users\tienm\Desktop\HQTCSDL_TH\Adim\Adim\obj\Debug\net6.0-windows\Adim.XoaTaiKhoanAdmin.resources

@@ -10,15 +10,12 @@ using System.Windows.Forms;
 
 namespace Adim
 {
-    public partial class ThemTaiKhoanAdmin : Form
+    public partial class XoaTaiKhoanAdmin : Form
     {
-        String TenDangNhapString = "";
-        String MatKhauString = "";
-        String HideMatKhauString = "";
-        int a = 0;
-        public ThemTaiKhoanAdmin()
+        public XoaTaiKhoanAdmin()
         {
             InitializeComponent();
         }
+
     }
 }

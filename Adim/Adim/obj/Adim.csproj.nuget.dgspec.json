@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\tienm\\OneDrive\\Máy tính\\HQTCSDL_TH\\Adim\\Adim\\Adim.csproj": {}
+    "C:\\Users\\tienm\\Desktop\\HQTCSDL_TH\\Adim\\Adim\\Adim.csproj": {}
   },
   "projects": {
-    "C:\\Users\\tienm\\OneDrive\\Máy tính\\HQTCSDL_TH\\Adim\\Adim\\Adim.csproj": {
+    "C:\\Users\\tienm\\Desktop\\HQTCSDL_TH\\Adim\\Adim\\Adim.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\tienm\\OneDrive\\Máy tính\\HQTCSDL_TH\\Adim\\Adim\\Adim.csproj",
+        "projectUniqueName": "C:\\Users\\tienm\\Desktop\\HQTCSDL_TH\\Adim\\Adim\\Adim.csproj",
         "projectName": "Adim",
-        "projectPath": "C:\\Users\\tienm\\OneDrive\\Máy tính\\HQTCSDL_TH\\Adim\\Adim\\Adim.csproj",
+        "projectPath": "C:\\Users\\tienm\\Desktop\\HQTCSDL_TH\\Adim\\Adim\\Adim.csproj",
         "packagesPath": "C:\\Users\\tienm\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\tienm\\OneDrive\\Máy tính\\HQTCSDL_TH\\Adim\\Adim\\obj\\",
+        "outputPath": "C:\\Users\\tienm\\Desktop\\HQTCSDL_TH\\Adim\\Adim\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
