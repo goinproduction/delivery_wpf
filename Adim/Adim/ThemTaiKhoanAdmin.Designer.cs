@@ -28,7 +28,12 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(ThemTaiKhoanAdmin));
             this.ThemTaiKhoanAdminPanel = new System.Windows.Forms.Panel();
+            this.ThemTaiKhoanThatBaiAdminLabel = new System.Windows.Forms.Label();
+            this.ThemTaiKhoanThatBaiAdminPictureBox = new System.Windows.Forms.PictureBox();
+            this.ThemTaiKhoanThanhCongAdminLabel = new System.Windows.Forms.Label();
+            this.ThemTaiKhoanThanhCongAdminPictureBox = new System.Windows.Forms.PictureBox();
             this.ThemAdminButton = new System.Windows.Forms.Button();
             this.LoaiTaiKhoanTaiXeAdminLabel = new System.Windows.Forms.Label();
             this.LoaiTaiKhoanKhachHangAdminLabel = new System.Windows.Forms.Label();
@@ -44,6 +49,8 @@
             this.TenDangNhapAdminSubTextbox = new System.Windows.Forms.TextBox();
             this.ThemTaiKhoanAdminLable = new System.Windows.Forms.Label();
             this.ThemTaiKhoanAdminPanel.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.ThemTaiKhoanThatBaiAdminPictureBox)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.ThemTaiKhoanThanhCongAdminPictureBox)).BeginInit();
             this.LoaiTaiKhoanAdminGroupBox.SuspendLayout();
             this.MatKhauAdminGroupBox.SuspendLayout();
             this.TenDangNhapAdminGroupBox.SuspendLayout();
@@ -52,6 +59,10 @@
             // ThemTaiKhoanAdminPanel
             // 
             this.ThemTaiKhoanAdminPanel.BackColor = System.Drawing.Color.White;
+            this.ThemTaiKhoanAdminPanel.Controls.Add(this.ThemTaiKhoanThatBaiAdminLabel);
+            this.ThemTaiKhoanAdminPanel.Controls.Add(this.ThemTaiKhoanThatBaiAdminPictureBox);
+            this.ThemTaiKhoanAdminPanel.Controls.Add(this.ThemTaiKhoanThanhCongAdminLabel);
+            this.ThemTaiKhoanAdminPanel.Controls.Add(this.ThemTaiKhoanThanhCongAdminPictureBox);
             this.ThemTaiKhoanAdminPanel.Controls.Add(this.ThemAdminButton);
             this.ThemTaiKhoanAdminPanel.Controls.Add(this.LoaiTaiKhoanTaiXeAdminLabel);
             this.ThemTaiKhoanAdminPanel.Controls.Add(this.LoaiTaiKhoanKhachHangAdminLabel);
@@ -67,6 +78,46 @@
             this.ThemTaiKhoanAdminPanel.Name = "ThemTaiKhoanAdminPanel";
             this.ThemTaiKhoanAdminPanel.Size = new System.Drawing.Size(477, 575);
             this.ThemTaiKhoanAdminPanel.TabIndex = 1;
+            // 
+            // ThemTaiKhoanThatBaiAdminLabel
+            // 
+            this.ThemTaiKhoanThatBaiAdminLabel.AutoSize = true;
+            this.ThemTaiKhoanThatBaiAdminLabel.Font = new System.Drawing.Font("Segoe UI Semibold", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.ThemTaiKhoanThatBaiAdminLabel.Location = new System.Drawing.Point(128, 358);
+            this.ThemTaiKhoanThatBaiAdminLabel.Name = "ThemTaiKhoanThatBaiAdminLabel";
+            this.ThemTaiKhoanThatBaiAdminLabel.Size = new System.Drawing.Size(180, 21);
+            this.ThemTaiKhoanThatBaiAdminLabel.TabIndex = 15;
+            this.ThemTaiKhoanThatBaiAdminLabel.Text = "Thêm tài khoản thất bại";
+            // 
+            // ThemTaiKhoanThatBaiAdminPictureBox
+            // 
+            this.ThemTaiKhoanThatBaiAdminPictureBox.Image = ((System.Drawing.Image)(resources.GetObject("ThemTaiKhoanThatBaiAdminPictureBox.Image")));
+            this.ThemTaiKhoanThatBaiAdminPictureBox.Location = new System.Drawing.Point(118, 83);
+            this.ThemTaiKhoanThatBaiAdminPictureBox.Name = "ThemTaiKhoanThatBaiAdminPictureBox";
+            this.ThemTaiKhoanThatBaiAdminPictureBox.Size = new System.Drawing.Size(246, 246);
+            this.ThemTaiKhoanThatBaiAdminPictureBox.TabIndex = 2;
+            this.ThemTaiKhoanThatBaiAdminPictureBox.TabStop = false;
+            // 
+            // ThemTaiKhoanThanhCongAdminLabel
+            // 
+            this.ThemTaiKhoanThanhCongAdminLabel.AutoSize = true;
+            this.ThemTaiKhoanThanhCongAdminLabel.Font = new System.Drawing.Font("Segoe UI Semibold", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.ThemTaiKhoanThanhCongAdminLabel.Location = new System.Drawing.Point(128, 358);
+            this.ThemTaiKhoanThanhCongAdminLabel.Name = "ThemTaiKhoanThanhCongAdminLabel";
+            this.ThemTaiKhoanThanhCongAdminLabel.Size = new System.Drawing.Size(207, 21);
+            this.ThemTaiKhoanThanhCongAdminLabel.TabIndex = 14;
+            this.ThemTaiKhoanThanhCongAdminLabel.Text = "Thêm tài khoản thành công";
+            this.ThemTaiKhoanThanhCongAdminLabel.Visible = false;
+            // 
+            // ThemTaiKhoanThanhCongAdminPictureBox
+            // 
+            this.ThemTaiKhoanThanhCongAdminPictureBox.Image = ((System.Drawing.Image)(resources.GetObject("ThemTaiKhoanThanhCongAdminPictureBox.Image")));
+            this.ThemTaiKhoanThanhCongAdminPictureBox.Location = new System.Drawing.Point(95, 66);
+            this.ThemTaiKhoanThanhCongAdminPictureBox.Name = "ThemTaiKhoanThanhCongAdminPictureBox";
+            this.ThemTaiKhoanThanhCongAdminPictureBox.Size = new System.Drawing.Size(296, 289);
+            this.ThemTaiKhoanThanhCongAdminPictureBox.TabIndex = 2;
+            this.ThemTaiKhoanThanhCongAdminPictureBox.TabStop = false;
+            this.ThemTaiKhoanThanhCongAdminPictureBox.Visible = false;
             // 
             // ThemAdminButton
             // 
@@ -234,6 +285,8 @@
             this.Text = "Thêm tài khoản";
             this.ThemTaiKhoanAdminPanel.ResumeLayout(false);
             this.ThemTaiKhoanAdminPanel.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.ThemTaiKhoanThatBaiAdminPictureBox)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.ThemTaiKhoanThanhCongAdminPictureBox)).EndInit();
             this.LoaiTaiKhoanAdminGroupBox.ResumeLayout(false);
             this.LoaiTaiKhoanAdminGroupBox.PerformLayout();
             this.MatKhauAdminGroupBox.ResumeLayout(false);
@@ -261,5 +314,9 @@
         private Label LoaiTaiKhoanKhachHangAdminLabel;
         private Label LoaiTaiKhoanDoiTacAdminLabel;
         private Label LoaiTaiKhoanNhanVienAdminLable;
+        private Label ThemTaiKhoanThanhCongAdminLabel;
+        private PictureBox ThemTaiKhoanThanhCongAdminPictureBox;
+        private PictureBox ThemTaiKhoanThatBaiAdminPictureBox;
+        private Label ThemTaiKhoanThatBaiAdminLabel;
     }
 }
