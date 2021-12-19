@@ -58,6 +58,7 @@
             this.HomeAdminListAccount.TabIndex = 1;
             this.HomeAdminListAccount.Text = "Danh sách tài khoản trong hệ thống";
             this.HomeAdminListAccount.UseVisualStyleBackColor = false;
+            this.HomeAdminListAccount.Click += new System.EventHandler(this.HomeAdminListAccount_Click);
             // 
             // HomeAdminThemTaiKhoan
             // 
@@ -69,6 +70,7 @@
             this.HomeAdminThemTaiKhoan.TabIndex = 2;
             this.HomeAdminThemTaiKhoan.Text = "Thêm tài khoản";
             this.HomeAdminThemTaiKhoan.UseVisualStyleBackColor = false;
+            this.HomeAdminThemTaiKhoan.Click += new System.EventHandler(this.HomeAdminThemTaiKhoan_Click);
             // 
             // HomeAdminXoaTaiKhoan
             // 
@@ -80,6 +82,7 @@
             this.HomeAdminXoaTaiKhoan.TabIndex = 3;
             this.HomeAdminXoaTaiKhoan.Text = "Xóa tài khoản";
             this.HomeAdminXoaTaiKhoan.UseVisualStyleBackColor = false;
+            this.HomeAdminXoaTaiKhoan.Click += new System.EventHandler(this.HomeAdminXoaTaiKhoan_Click);
             // 
             // adminHome
             // 

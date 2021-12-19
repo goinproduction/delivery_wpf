@@ -88,6 +88,7 @@
             this.ThemTaiKhoanThatBaiAdminLabel.Size = new System.Drawing.Size(180, 21);
             this.ThemTaiKhoanThatBaiAdminLabel.TabIndex = 15;
             this.ThemTaiKhoanThatBaiAdminLabel.Text = "Thêm tài khoản thất bại";
+            this.ThemTaiKhoanThatBaiAdminLabel.Visible = false;
             // 
             // ThemTaiKhoanThatBaiAdminPictureBox
             // 
@@ -97,6 +98,7 @@
             this.ThemTaiKhoanThatBaiAdminPictureBox.Size = new System.Drawing.Size(246, 246);
             this.ThemTaiKhoanThatBaiAdminPictureBox.TabIndex = 2;
             this.ThemTaiKhoanThatBaiAdminPictureBox.TabStop = false;
+            this.ThemTaiKhoanThatBaiAdminPictureBox.Visible = false;
             // 
             // ThemTaiKhoanThanhCongAdminLabel
             // 

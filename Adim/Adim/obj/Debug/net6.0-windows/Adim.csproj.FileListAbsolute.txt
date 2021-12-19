@@ -41,3 +41,10 @@ C:\Users\tienm\Desktop\HQTCSDL_TH\Adim\Adim\obj\Debug\net6.0-windows\Adim.csproj
 C:\Users\tienm\Desktop\HQTCSDL_TH\Adim\Adim\obj\Debug\net6.0-windows\Adim.genruntimeconfig.cache
 C:\Users\tienm\Desktop\HQTCSDL_TH\Adim\Adim\obj\Debug\net6.0-windows\Adim.Properties.Resources.resources
 C:\Users\tienm\Desktop\HQTCSDL_TH\Adim\Adim\obj\Debug\net6.0-windows\Adim.XoaTaiKhoanAdmin.resources
+C:\Users\tienm\Desktop\HQTCSDL_TH\Adim\Adim\bin\Debug\net6.0-windows\System.Data.SqlClient.dll
+C:\Users\tienm\Desktop\HQTCSDL_TH\Adim\Adim\bin\Debug\net6.0-windows\runtimes\win-arm64\native\sni.dll
+C:\Users\tienm\Desktop\HQTCSDL_TH\Adim\Adim\bin\Debug\net6.0-windows\runtimes\win-x64\native\sni.dll
+C:\Users\tienm\Desktop\HQTCSDL_TH\Adim\Adim\bin\Debug\net6.0-windows\runtimes\win-x86\native\sni.dll
+C:\Users\tienm\Desktop\HQTCSDL_TH\Adim\Adim\bin\Debug\net6.0-windows\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\tienm\Desktop\HQTCSDL_TH\Adim\Adim\bin\Debug\net6.0-windows\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\tienm\Desktop\HQTCSDL_TH\Adim\Adim\obj\Debug\net6.0-windows\Adim.csproj.CopyComplete
