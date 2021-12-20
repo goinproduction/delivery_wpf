@@ -28,3 +28,4 @@ C:\Users\tienm\Desktop\HQTCSDL_TH\Adim\Adim\obj\Release\net6.0-windows\Adim.dll
 C:\Users\tienm\Desktop\HQTCSDL_TH\Adim\Adim\obj\Release\net6.0-windows\ref\Adim.dll
 C:\Users\tienm\Desktop\HQTCSDL_TH\Adim\Adim\obj\Release\net6.0-windows\Adim.pdb
 C:\Users\tienm\Desktop\HQTCSDL_TH\Adim\Adim\obj\Release\net6.0-windows\Adim.genruntimeconfig.cache
+C:\Users\tienm\Desktop\HQTCSDL_TH\Adim\Adim\obj\Release\net6.0-windows\Adim.csproj.AssemblyReference.cache

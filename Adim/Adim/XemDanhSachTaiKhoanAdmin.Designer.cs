@@ -56,6 +56,8 @@
             this.danhSachTaiKhoanAdminDataGridView.RowTemplate.Height = 29;
             this.danhSachTaiKhoanAdminDataGridView.Size = new System.Drawing.Size(863, 182);
             this.danhSachTaiKhoanAdminDataGridView.TabIndex = 1;
+            this.danhSachTaiKhoanAdminDataGridView.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.danhSachTaiKhoanAdminDataGridView_CellClick);
+            this.danhSachTaiKhoanAdminDataGridView.CellValueChanged += new System.Windows.Forms.DataGridViewCellEventHandler(this.danhSachTaiKhoanAdminDataGridView_CellValueChanged);
             // 
             // XemDanhSachTaiKhoanAdminUpdate
             // 
