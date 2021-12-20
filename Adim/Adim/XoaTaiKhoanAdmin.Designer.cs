@@ -45,6 +45,7 @@
             this.XoaTaiKhoanAdminLable.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.XoaTaiKhoanThatBaiAdminPictureBox)).BeginInit();
             this.TenDangNhapAdminGroupBox.SuspendLayout();
+            this.MatKhauQuanTriAdminGroupBox.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.XoaTaiKhoanThanhCongAdminPictureBox)).BeginInit();
             this.XoaTaiKhoanAdminPanel.SuspendLayout();
             this.SuspendLayout();
@@ -89,12 +90,13 @@
             this.TenDangNhapMuonXoaAdminSubTextbox.Location = new System.Drawing.Point(9, 22);
             this.TenDangNhapMuonXoaAdminSubTextbox.Margin = new System.Windows.Forms.Padding(9);
             this.TenDangNhapMuonXoaAdminSubTextbox.Name = "TenDangNhapMuonXoaAdminSubTextbox";
+            this.TenDangNhapMuonXoaAdminSubTextbox.PlaceholderText = "Tên đăng nhập muốn xóa";
             this.TenDangNhapMuonXoaAdminSubTextbox.Size = new System.Drawing.Size(340, 16);
             this.TenDangNhapMuonXoaAdminSubTextbox.TabIndex = 2;
-            this.TenDangNhapMuonXoaAdminSubTextbox.Text = "Tên đăng nhập muốn xóa";
             // 
             // MatKhauQuanTriAdminGroupBox
             // 
+            this.MatKhauQuanTriAdminGroupBox.Controls.Add(this.MatKhauQuanTriAdminSubTextBox);
             this.MatKhauQuanTriAdminGroupBox.Location = new System.Drawing.Point(49, 153);
             this.MatKhauQuanTriAdminGroupBox.Margin = new System.Windows.Forms.Padding(0);
             this.MatKhauQuanTriAdminGroupBox.Name = "MatKhauQuanTriAdminGroupBox";
@@ -111,9 +113,9 @@
             this.MatKhauQuanTriAdminSubTextBox.Location = new System.Drawing.Point(9, 22);
             this.MatKhauQuanTriAdminSubTextBox.Margin = new System.Windows.Forms.Padding(9);
             this.MatKhauQuanTriAdminSubTextBox.Name = "MatKhauQuanTriAdminSubTextBox";
+            this.MatKhauQuanTriAdminSubTextBox.PlaceholderText = "Mật khẩu quản trị";
             this.MatKhauQuanTriAdminSubTextBox.Size = new System.Drawing.Size(340, 16);
             this.MatKhauQuanTriAdminSubTextBox.TabIndex = 2;
-            this.MatKhauQuanTriAdminSubTextBox.Text = "Mật khẩu quản trị";
             // 
             // XoaTaiKhoanThanhCongAdminPictureBox
             // 
@@ -158,6 +160,7 @@
             this.XoaAdminButton.TabIndex = 14;
             this.XoaAdminButton.Text = "Xóa";
             this.XoaAdminButton.UseVisualStyleBackColor = false;
+            this.XoaAdminButton.Click += new System.EventHandler(this.XoaAdminButton_Click);
             // 
             // XoaTaiKhoanThanhCongAdminLabel
             // 
@@ -211,6 +214,8 @@
             ((System.ComponentModel.ISupportInitialize)(this.XoaTaiKhoanThatBaiAdminPictureBox)).EndInit();
             this.TenDangNhapAdminGroupBox.ResumeLayout(false);
             this.TenDangNhapAdminGroupBox.PerformLayout();
+            this.MatKhauQuanTriAdminGroupBox.ResumeLayout(false);
+            this.MatKhauQuanTriAdminGroupBox.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.XoaTaiKhoanThanhCongAdminPictureBox)).EndInit();
             this.XoaTaiKhoanAdminPanel.ResumeLayout(false);
             this.XoaTaiKhoanAdminPanel.PerformLayout();

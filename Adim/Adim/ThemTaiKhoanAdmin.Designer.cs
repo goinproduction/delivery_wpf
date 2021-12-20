@@ -30,6 +30,7 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(ThemTaiKhoanAdmin));
             this.ThemTaiKhoanAdminPanel = new System.Windows.Forms.Panel();
+            this.OkAdminButton = new System.Windows.Forms.Button();
             this.ThemTaiKhoanThatBaiAdminLabel = new System.Windows.Forms.Label();
             this.ThemTaiKhoanThatBaiAdminPictureBox = new System.Windows.Forms.PictureBox();
             this.ThemTaiKhoanThanhCongAdminLabel = new System.Windows.Forms.Label();
@@ -42,12 +43,13 @@
             this.LoaiTaiKhoanAdminAdminLabel = new System.Windows.Forms.Label();
             this.MaLoaiTaiKhoanAdminLable = new System.Windows.Forms.Label();
             this.LoaiTaiKhoanAdminGroupBox = new System.Windows.Forms.GroupBox();
-            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.LoaTaiKhoanAdminSubTextBox = new System.Windows.Forms.TextBox();
             this.MatKhauAdminGroupBox = new System.Windows.Forms.GroupBox();
             this.MatKhauAdminSubTextBox = new System.Windows.Forms.TextBox();
             this.TenDangNhapAdminGroupBox = new System.Windows.Forms.GroupBox();
             this.TenDangNhapAdminSubTextbox = new System.Windows.Forms.TextBox();
             this.ThemTaiKhoanAdminLable = new System.Windows.Forms.Label();
+            this.BackButton = new System.Windows.Forms.Button();
             this.ThemTaiKhoanAdminPanel.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.ThemTaiKhoanThatBaiAdminPictureBox)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.ThemTaiKhoanThanhCongAdminPictureBox)).BeginInit();
@@ -59,6 +61,7 @@
             // ThemTaiKhoanAdminPanel
             // 
             this.ThemTaiKhoanAdminPanel.BackColor = System.Drawing.Color.White;
+            this.ThemTaiKhoanAdminPanel.Controls.Add(this.OkAdminButton);
             this.ThemTaiKhoanAdminPanel.Controls.Add(this.ThemTaiKhoanThatBaiAdminLabel);
             this.ThemTaiKhoanAdminPanel.Controls.Add(this.ThemTaiKhoanThatBaiAdminPictureBox);
             this.ThemTaiKhoanAdminPanel.Controls.Add(this.ThemTaiKhoanThanhCongAdminLabel);
@@ -78,6 +81,20 @@
             this.ThemTaiKhoanAdminPanel.Name = "ThemTaiKhoanAdminPanel";
             this.ThemTaiKhoanAdminPanel.Size = new System.Drawing.Size(477, 575);
             this.ThemTaiKhoanAdminPanel.TabIndex = 1;
+            // 
+            // OkAdminButton
+            // 
+            this.OkAdminButton.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(76)))), ((int)(((byte)(157)))), ((int)(((byte)(253)))));
+            this.OkAdminButton.Font = new System.Drawing.Font("Segoe UI Semibold", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.OkAdminButton.ForeColor = System.Drawing.Color.White;
+            this.OkAdminButton.Location = new System.Drawing.Point(153, 436);
+            this.OkAdminButton.Name = "OkAdminButton";
+            this.OkAdminButton.Size = new System.Drawing.Size(163, 43);
+            this.OkAdminButton.TabIndex = 16;
+            this.OkAdminButton.Text = "Ok";
+            this.OkAdminButton.UseVisualStyleBackColor = false;
+            this.OkAdminButton.Visible = false;
+            this.OkAdminButton.Click += new System.EventHandler(this.OkAdminButton_Click);
             // 
             // ThemTaiKhoanThatBaiAdminLabel
             // 
@@ -132,6 +149,7 @@
             this.ThemAdminButton.TabIndex = 13;
             this.ThemAdminButton.Text = "Thêm";
             this.ThemAdminButton.UseVisualStyleBackColor = false;
+            this.ThemAdminButton.Click += new System.EventHandler(this.ThemAdminButton_Click);
             // 
             // LoaiTaiKhoanTaiXeAdminLabel
             // 
@@ -200,7 +218,7 @@
             // 
             // LoaiTaiKhoanAdminGroupBox
             // 
-            this.LoaiTaiKhoanAdminGroupBox.Controls.Add(this.textBox1);
+            this.LoaiTaiKhoanAdminGroupBox.Controls.Add(this.LoaTaiKhoanAdminSubTextBox);
             this.LoaiTaiKhoanAdminGroupBox.Location = new System.Drawing.Point(68, 244);
             this.LoaiTaiKhoanAdminGroupBox.Margin = new System.Windows.Forms.Padding(0);
             this.LoaiTaiKhoanAdminGroupBox.Name = "LoaiTaiKhoanAdminGroupBox";
@@ -209,17 +227,17 @@
             this.LoaiTaiKhoanAdminGroupBox.TabIndex = 6;
             this.LoaiTaiKhoanAdminGroupBox.TabStop = false;
             // 
-            // textBox1
+            // LoaTaiKhoanAdminSubTextBox
             // 
-            this.textBox1.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.textBox1.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point);
-            this.textBox1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
-            this.textBox1.Location = new System.Drawing.Point(9, 22);
-            this.textBox1.Margin = new System.Windows.Forms.Padding(9);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(340, 16);
-            this.textBox1.TabIndex = 4;
-            this.textBox1.Text = "Loại tài khoản";
+            this.LoaTaiKhoanAdminSubTextBox.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.LoaTaiKhoanAdminSubTextBox.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point);
+            this.LoaTaiKhoanAdminSubTextBox.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            this.LoaTaiKhoanAdminSubTextBox.Location = new System.Drawing.Point(9, 22);
+            this.LoaTaiKhoanAdminSubTextBox.Margin = new System.Windows.Forms.Padding(9);
+            this.LoaTaiKhoanAdminSubTextBox.Name = "LoaTaiKhoanAdminSubTextBox";
+            this.LoaTaiKhoanAdminSubTextBox.PlaceholderText = "Loại tài khoản";
+            this.LoaTaiKhoanAdminSubTextBox.Size = new System.Drawing.Size(340, 22);
+            this.LoaTaiKhoanAdminSubTextBox.TabIndex = 4;
             // 
             // MatKhauAdminGroupBox
             // 
@@ -235,14 +253,15 @@
             // MatKhauAdminSubTextBox
             // 
             this.MatKhauAdminSubTextBox.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.MatKhauAdminSubTextBox.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point);
-            this.MatKhauAdminSubTextBox.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
+            this.MatKhauAdminSubTextBox.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point);
+            this.MatKhauAdminSubTextBox.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
             this.MatKhauAdminSubTextBox.Location = new System.Drawing.Point(9, 22);
             this.MatKhauAdminSubTextBox.Margin = new System.Windows.Forms.Padding(9);
             this.MatKhauAdminSubTextBox.Name = "MatKhauAdminSubTextBox";
-            this.MatKhauAdminSubTextBox.Size = new System.Drawing.Size(340, 16);
+            this.MatKhauAdminSubTextBox.PasswordChar = '*';
+            this.MatKhauAdminSubTextBox.PlaceholderText = "Mật khẩu";
+            this.MatKhauAdminSubTextBox.Size = new System.Drawing.Size(340, 22);
             this.MatKhauAdminSubTextBox.TabIndex = 4;
-            this.MatKhauAdminSubTextBox.Text = "Mật khẩu";
             // 
             // TenDangNhapAdminGroupBox
             // 
@@ -258,14 +277,14 @@
             // TenDangNhapAdminSubTextbox
             // 
             this.TenDangNhapAdminSubTextbox.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.TenDangNhapAdminSubTextbox.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point);
-            this.TenDangNhapAdminSubTextbox.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
+            this.TenDangNhapAdminSubTextbox.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point);
+            this.TenDangNhapAdminSubTextbox.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
             this.TenDangNhapAdminSubTextbox.Location = new System.Drawing.Point(9, 22);
             this.TenDangNhapAdminSubTextbox.Margin = new System.Windows.Forms.Padding(9);
             this.TenDangNhapAdminSubTextbox.Name = "TenDangNhapAdminSubTextbox";
-            this.TenDangNhapAdminSubTextbox.Size = new System.Drawing.Size(340, 16);
+            this.TenDangNhapAdminSubTextbox.PlaceholderText = "Tên đăng nhập";
+            this.TenDangNhapAdminSubTextbox.Size = new System.Drawing.Size(340, 22);
             this.TenDangNhapAdminSubTextbox.TabIndex = 2;
-            this.TenDangNhapAdminSubTextbox.Text = "Tên đăng nhập";
             // 
             // ThemTaiKhoanAdminLable
             // 
@@ -277,11 +296,25 @@
             this.ThemTaiKhoanAdminLable.TabIndex = 0;
             this.ThemTaiKhoanAdminLable.Text = "Thêm tài khoản";
             // 
+            // BackButton
+            // 
+            this.BackButton.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(196)))), ((int)(((byte)(196)))), ((int)(((byte)(196)))));
+            this.BackButton.Font = new System.Drawing.Font("Segoe UI", 15F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.BackButton.Location = new System.Drawing.Point(30, 536);
+            this.BackButton.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.BackButton.Name = "BackButton";
+            this.BackButton.Size = new System.Drawing.Size(172, 48);
+            this.BackButton.TabIndex = 4;
+            this.BackButton.Text = "Back";
+            this.BackButton.UseVisualStyleBackColor = false;
+            this.BackButton.Click += new System.EventHandler(this.BackButton_Click);
+            // 
             // ThemTaiKhoanAdmin
             // 
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.None;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(22)))), ((int)(((byte)(94)))), ((int)(((byte)(107)))));
             this.ClientSize = new System.Drawing.Size(1087, 641);
+            this.Controls.Add(this.BackButton);
             this.Controls.Add(this.ThemTaiKhoanAdminPanel);
             this.Name = "ThemTaiKhoanAdmin";
             this.Text = "Thêm tài khoản";
@@ -308,7 +341,7 @@
         private GroupBox MatKhauAdminGroupBox;
         private TextBox MatKhauAdminSubTextBox;
         private GroupBox LoaiTaiKhoanAdminGroupBox;
-        private TextBox textBox1;
+        private TextBox LoaTaiKhoanAdminSubTextBox;
         private Label LoaiTaiKhoanAdminAdminLabel;
         private Label MaLoaiTaiKhoanAdminLable;
         private Button ThemAdminButton;
@@ -320,5 +353,7 @@
         private PictureBox ThemTaiKhoanThanhCongAdminPictureBox;
         private PictureBox ThemTaiKhoanThatBaiAdminPictureBox;
         private Label ThemTaiKhoanThatBaiAdminLabel;
+        private Button OkAdminButton;
+        private Button BackButton;
     }
 }

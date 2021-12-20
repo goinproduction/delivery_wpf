@@ -19,16 +19,16 @@ namespace Adim
 
         private void HomeAdminThemTaiKhoan_Click(object sender, EventArgs e)
         {
-            //this.Hide();
-            //Form addAccount = new ThemTaiKhoanAdmin();
-            //addAccount.Show();
+            Form addAccount = new ThemTaiKhoanAdmin(conn);
+            addAccount.Show();
+            this.Hide();
         }
 
         private void HomeAdminXoaTaiKhoan_Click(object sender, EventArgs e)
         {
-            //this.Hide();
-            //Form deleteAdmin = new XoaTaiKhoanAdmin();
-            //deleteAdmin.Show();
+            this.Hide();
+            Form deleteAdmin = new XoaTaiKhoanAdmin(conn);
+            deleteAdmin.Show();
         }
     }
 }

@@ -16,7 +16,7 @@ namespace Adim
             DataSet ds = new DataSet();
             SqlDataAdapter data = new SqlDataAdapter(sql, conn);
             data.Fill(ds);
-            if (ds.Tables[0].Rows.Count > 1)
+            if (ds.Tables[0].Rows.Count > 0)
             {
                 return true;
             }
