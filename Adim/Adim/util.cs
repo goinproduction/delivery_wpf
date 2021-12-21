@@ -38,7 +38,7 @@ namespace Adim
                     tableUpdateName = "Employee";
                     break;
                 case 5:
-                    tableUpdateName = "PParner";
+                    tableUpdateName = "PPartner";
                     break;
             }
 
@@ -64,7 +64,7 @@ namespace Adim
                     tableUpdateName = "Employee";
                     break;
                 case 5:
-                    tableUpdateName = "PParner";
+                    tableUpdateName = "PPartner";
                     break;
             }
             String sqlDisableConstraint = "alter table " + tableUpdateName + " NOCHECK CONSTRAINT all";
@@ -86,12 +86,25 @@ namespace Adim
                     tableUpdateName = "Employee";
                     break;
                 case 5:
-                    tableUpdateName = "PParner";
+                    tableUpdateName = "PPartner";
                     break;
             }
             String sqlEnableConstraint = "alter table " + tableUpdateName + " CHECK CONSTRAINT all";
             SqlCommand disableConstraint = new SqlCommand(sqlEnableConstraint, conn);
             disableConstraint.ExecuteNonQuery();
+        }
+
+        public static bool checkAccount(String name, String passWord, Int16 type, SqlConnection conn)
+        {
+            String checkCorrectAccount = "select * from Account where Account_Name = '" + name + "' and Account_Password = '" + passWord + "' and Account_Type = '" + type + "'";
+            DataSet ds = new DataSet();
+            SqlDataAdapter data = new SqlDataAdapter(checkCorrectAccount, conn);
+            data.Fill(ds);
+            if (ds.Tables[0].Rows.Count > 0)
+            {
+                return true;
+            }
+            return false;
         }
     }
 }

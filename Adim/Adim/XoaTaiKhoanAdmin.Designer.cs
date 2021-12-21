@@ -41,8 +41,9 @@
             this.XoaAdminButton = new System.Windows.Forms.Button();
             this.XoaTaiKhoanThanhCongAdminLabel = new System.Windows.Forms.Label();
             this.XoaTaiKhoanAdminPanel = new System.Windows.Forms.Panel();
+            this.OkButtonXoaTaiKhoanAmin = new System.Windows.Forms.Button();
             this.XoaTaiKhoanThatBaiAdminLabel = new System.Windows.Forms.Label();
-            this.XoaTaiKhoanAdminLable.SuspendLayout();
+            this.XoaTaiKhoanBackAdminButton = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.XoaTaiKhoanThatBaiAdminPictureBox)).BeginInit();
             this.TenDangNhapAdminGroupBox.SuspendLayout();
             this.MatKhauQuanTriAdminGroupBox.SuspendLayout();
@@ -53,7 +54,6 @@
             // XoaTaiKhoanAdminLable
             // 
             this.XoaTaiKhoanAdminLable.AutoSize = true;
-            this.XoaTaiKhoanAdminLable.Controls.Add(this.XoaTaiKhoanThatBaiAdminPictureBox);
             this.XoaTaiKhoanAdminLable.Font = new System.Drawing.Font("Segoe UI Semibold", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.XoaTaiKhoanAdminLable.Location = new System.Drawing.Point(23, 21);
             this.XoaTaiKhoanAdminLable.Name = "XoaTaiKhoanAdminLable";
@@ -85,13 +85,13 @@
             // TenDangNhapMuonXoaAdminSubTextbox
             // 
             this.TenDangNhapMuonXoaAdminSubTextbox.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.TenDangNhapMuonXoaAdminSubTextbox.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point);
-            this.TenDangNhapMuonXoaAdminSubTextbox.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
+            this.TenDangNhapMuonXoaAdminSubTextbox.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point);
+            this.TenDangNhapMuonXoaAdminSubTextbox.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
             this.TenDangNhapMuonXoaAdminSubTextbox.Location = new System.Drawing.Point(9, 22);
             this.TenDangNhapMuonXoaAdminSubTextbox.Margin = new System.Windows.Forms.Padding(9);
             this.TenDangNhapMuonXoaAdminSubTextbox.Name = "TenDangNhapMuonXoaAdminSubTextbox";
             this.TenDangNhapMuonXoaAdminSubTextbox.PlaceholderText = "Tên đăng nhập muốn xóa";
-            this.TenDangNhapMuonXoaAdminSubTextbox.Size = new System.Drawing.Size(340, 16);
+            this.TenDangNhapMuonXoaAdminSubTextbox.Size = new System.Drawing.Size(340, 22);
             this.TenDangNhapMuonXoaAdminSubTextbox.TabIndex = 2;
             // 
             // MatKhauQuanTriAdminGroupBox
@@ -108,19 +108,19 @@
             // MatKhauQuanTriAdminSubTextBox
             // 
             this.MatKhauQuanTriAdminSubTextBox.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.MatKhauQuanTriAdminSubTextBox.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point);
-            this.MatKhauQuanTriAdminSubTextBox.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
+            this.MatKhauQuanTriAdminSubTextBox.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point);
+            this.MatKhauQuanTriAdminSubTextBox.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
             this.MatKhauQuanTriAdminSubTextBox.Location = new System.Drawing.Point(9, 22);
             this.MatKhauQuanTriAdminSubTextBox.Margin = new System.Windows.Forms.Padding(9);
             this.MatKhauQuanTriAdminSubTextBox.Name = "MatKhauQuanTriAdminSubTextBox";
             this.MatKhauQuanTriAdminSubTextBox.PlaceholderText = "Mật khẩu quản trị";
-            this.MatKhauQuanTriAdminSubTextBox.Size = new System.Drawing.Size(340, 16);
+            this.MatKhauQuanTriAdminSubTextBox.Size = new System.Drawing.Size(340, 22);
             this.MatKhauQuanTriAdminSubTextBox.TabIndex = 2;
             // 
             // XoaTaiKhoanThanhCongAdminPictureBox
             // 
             this.XoaTaiKhoanThanhCongAdminPictureBox.Image = ((System.Drawing.Image)(resources.GetObject("XoaTaiKhoanThanhCongAdminPictureBox.Image")));
-            this.XoaTaiKhoanThanhCongAdminPictureBox.Location = new System.Drawing.Point(85, 50);
+            this.XoaTaiKhoanThanhCongAdminPictureBox.Location = new System.Drawing.Point(82, 34);
             this.XoaTaiKhoanThanhCongAdminPictureBox.Name = "XoaTaiKhoanThanhCongAdminPictureBox";
             this.XoaTaiKhoanThanhCongAdminPictureBox.Size = new System.Drawing.Size(294, 278);
             this.XoaTaiKhoanThanhCongAdminPictureBox.TabIndex = 3;
@@ -176,9 +176,11 @@
             // XoaTaiKhoanAdminPanel
             // 
             this.XoaTaiKhoanAdminPanel.BackColor = System.Drawing.Color.White;
+            this.XoaTaiKhoanAdminPanel.Controls.Add(this.OkButtonXoaTaiKhoanAmin);
+            this.XoaTaiKhoanAdminPanel.Controls.Add(this.XoaTaiKhoanThanhCongAdminPictureBox);
+            this.XoaTaiKhoanAdminPanel.Controls.Add(this.XoaTaiKhoanThatBaiAdminPictureBox);
             this.XoaTaiKhoanAdminPanel.Controls.Add(this.XoaTaiKhoanThatBaiAdminLabel);
             this.XoaTaiKhoanAdminPanel.Controls.Add(this.XoaTaiKhoanThanhCongAdminLabel);
-            this.XoaTaiKhoanAdminPanel.Controls.Add(this.XoaTaiKhoanThanhCongAdminPictureBox);
             this.XoaTaiKhoanAdminPanel.Controls.Add(this.XoaAdminButton);
             this.XoaTaiKhoanAdminPanel.Controls.Add(this.NoteAdminLabel02);
             this.XoaTaiKhoanAdminPanel.Controls.Add(this.NoteAdminLabel01);
@@ -189,6 +191,20 @@
             this.XoaTaiKhoanAdminPanel.Name = "XoaTaiKhoanAdminPanel";
             this.XoaTaiKhoanAdminPanel.Size = new System.Drawing.Size(477, 441);
             this.XoaTaiKhoanAdminPanel.TabIndex = 1;
+            // 
+            // OkButtonXoaTaiKhoanAmin
+            // 
+            this.OkButtonXoaTaiKhoanAmin.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(76)))), ((int)(((byte)(157)))), ((int)(((byte)(253)))));
+            this.OkButtonXoaTaiKhoanAmin.Font = new System.Drawing.Font("Segoe UI Semibold", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.OkButtonXoaTaiKhoanAmin.ForeColor = System.Drawing.Color.White;
+            this.OkButtonXoaTaiKhoanAmin.Location = new System.Drawing.Point(148, 367);
+            this.OkButtonXoaTaiKhoanAmin.Name = "OkButtonXoaTaiKhoanAmin";
+            this.OkButtonXoaTaiKhoanAmin.Size = new System.Drawing.Size(163, 43);
+            this.OkButtonXoaTaiKhoanAmin.TabIndex = 17;
+            this.OkButtonXoaTaiKhoanAmin.Text = "Ok";
+            this.OkButtonXoaTaiKhoanAmin.UseVisualStyleBackColor = false;
+            this.OkButtonXoaTaiKhoanAmin.Visible = false;
+            this.OkButtonXoaTaiKhoanAmin.Click += new System.EventHandler(this.OkButtonXoaTaiKhoanAmin_Click);
             // 
             // XoaTaiKhoanThatBaiAdminLabel
             // 
@@ -201,16 +217,29 @@
             this.XoaTaiKhoanThatBaiAdminLabel.Text = "Xóa tài khoản thất bại";
             this.XoaTaiKhoanThatBaiAdminLabel.Visible = false;
             // 
+            // XoaTaiKhoanBackAdminButton
+            // 
+            this.XoaTaiKhoanBackAdminButton.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(196)))), ((int)(((byte)(196)))), ((int)(((byte)(196)))));
+            this.XoaTaiKhoanBackAdminButton.Font = new System.Drawing.Font("Segoe UI", 15F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.XoaTaiKhoanBackAdminButton.Location = new System.Drawing.Point(12, 568);
+            this.XoaTaiKhoanBackAdminButton.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.XoaTaiKhoanBackAdminButton.Name = "XoaTaiKhoanBackAdminButton";
+            this.XoaTaiKhoanBackAdminButton.Size = new System.Drawing.Size(172, 48);
+            this.XoaTaiKhoanBackAdminButton.TabIndex = 5;
+            this.XoaTaiKhoanBackAdminButton.Text = "Back";
+            this.XoaTaiKhoanBackAdminButton.UseVisualStyleBackColor = false;
+            this.XoaTaiKhoanBackAdminButton.Click += new System.EventHandler(this.XoaTaiKhoanBackAdminButton_Click);
+            // 
             // XoaTaiKhoanAdmin
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(22)))), ((int)(((byte)(94)))), ((int)(((byte)(107)))));
             this.ClientSize = new System.Drawing.Size(1089, 649);
+            this.Controls.Add(this.XoaTaiKhoanBackAdminButton);
             this.Controls.Add(this.XoaTaiKhoanAdminPanel);
             this.Name = "XoaTaiKhoanAdmin";
             this.Text = "Xóa tài khoản";
-            this.XoaTaiKhoanAdminLable.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.XoaTaiKhoanThatBaiAdminPictureBox)).EndInit();
             this.TenDangNhapAdminGroupBox.ResumeLayout(false);
             this.TenDangNhapAdminGroupBox.PerformLayout();
@@ -238,5 +267,7 @@
         private PictureBox XoaTaiKhoanThatBaiAdminPictureBox;
         private Panel XoaTaiKhoanAdminPanel;
         private Label XoaTaiKhoanThatBaiAdminLabel;
+        private Button OkButtonXoaTaiKhoanAmin;
+        private Button XoaTaiKhoanBackAdminButton;
     }
 }

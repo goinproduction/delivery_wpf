@@ -105,6 +105,8 @@ namespace Adim
         {
             this.ThemTaiKhoanThatBaiAdminLabel.Visible = false;
             this.ThemTaiKhoanThatBaiAdminPictureBox.Visible = false;
+            this.ThemTaiKhoanThanhCongAdminLabel.Visible = false;
+            this.ThemTaiKhoanThanhCongAdminPictureBox.Visible = false;
             this.OkAdminButton.Visible = false;
 
             this.ThemTaiKhoanAdminLable.Visible = true;
