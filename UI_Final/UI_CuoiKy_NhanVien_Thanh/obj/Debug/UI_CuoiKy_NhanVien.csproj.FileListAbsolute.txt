@@ -1,0 +1,44 @@
+D:\codetime\he quan tri csdl\Đồ Án Thực Hành\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.exe.config
+D:\codetime\he quan tri csdl\Đồ Án Thực Hành\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.exe
+D:\codetime\he quan tri csdl\Đồ Án Thực Hành\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.pdb
+D:\codetime\he quan tri csdl\Đồ Án Thực Hành\WindowsFormsApp1\obj\Debug\UI_CuoiKy_NhanVien.csproj.AssemblyReference.cache
+D:\codetime\he quan tri csdl\Đồ Án Thực Hành\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Form1.resources
+D:\codetime\he quan tri csdl\Đồ Án Thực Hành\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Form2.resources
+D:\codetime\he quan tri csdl\Đồ Án Thực Hành\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Form3.resources
+D:\codetime\he quan tri csdl\Đồ Án Thực Hành\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Form4.resources
+D:\codetime\he quan tri csdl\Đồ Án Thực Hành\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Form5.resources
+D:\codetime\he quan tri csdl\Đồ Án Thực Hành\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Properties.Resources.resources
+D:\codetime\he quan tri csdl\Đồ Án Thực Hành\WindowsFormsApp1\obj\Debug\UI_CuoiKy_NhanVien.csproj.GenerateResource.cache
+D:\codetime\he quan tri csdl\Đồ Án Thực Hành\WindowsFormsApp1\obj\Debug\UI_CuoiKy_NhanVien.csproj.CoreCompileInputs.cache
+D:\codetime\he quan tri csdl\Đồ Án Thực Hành\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.exe
+D:\codetime\he quan tri csdl\Đồ Án Thực Hành\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.pdb
+D:\codetime\he quan tri csdl\Đồ Án Thực Hành\UI_CuoiKy_NhanVien_Thanh\bin\Debug\WindowsFormsApp1.exe.config
+D:\codetime\he quan tri csdl\Đồ Án Thực Hành\UI_CuoiKy_NhanVien_Thanh\bin\Debug\WindowsFormsApp1.exe
+D:\codetime\he quan tri csdl\Đồ Án Thực Hành\UI_CuoiKy_NhanVien_Thanh\bin\Debug\WindowsFormsApp1.pdb
+D:\codetime\he quan tri csdl\Đồ Án Thực Hành\UI_CuoiKy_NhanVien_Thanh\obj\Debug\UI_CuoiKy_NhanVien.csproj.AssemblyReference.cache
+D:\codetime\he quan tri csdl\Đồ Án Thực Hành\UI_CuoiKy_NhanVien_Thanh\obj\Debug\WindowsFormsApp1.Form1.resources
+D:\codetime\he quan tri csdl\Đồ Án Thực Hành\UI_CuoiKy_NhanVien_Thanh\obj\Debug\WindowsFormsApp1.Form2.resources
+D:\codetime\he quan tri csdl\Đồ Án Thực Hành\UI_CuoiKy_NhanVien_Thanh\obj\Debug\WindowsFormsApp1.Form3.resources
+D:\codetime\he quan tri csdl\Đồ Án Thực Hành\UI_CuoiKy_NhanVien_Thanh\obj\Debug\WindowsFormsApp1.Form4.resources
+D:\codetime\he quan tri csdl\Đồ Án Thực Hành\UI_CuoiKy_NhanVien_Thanh\obj\Debug\WindowsFormsApp1.Form5.resources
+D:\codetime\he quan tri csdl\Đồ Án Thực Hành\UI_CuoiKy_NhanVien_Thanh\obj\Debug\WindowsFormsApp1.Form6.resources
+D:\codetime\he quan tri csdl\Đồ Án Thực Hành\UI_CuoiKy_NhanVien_Thanh\obj\Debug\WindowsFormsApp1.Properties.Resources.resources
+D:\codetime\he quan tri csdl\Đồ Án Thực Hành\UI_CuoiKy_NhanVien_Thanh\obj\Debug\UI_CuoiKy_NhanVien.csproj.GenerateResource.cache
+D:\codetime\he quan tri csdl\Đồ Án Thực Hành\UI_CuoiKy_NhanVien_Thanh\obj\Debug\UI_CuoiKy_NhanVien.csproj.CoreCompileInputs.cache
+D:\codetime\he quan tri csdl\Đồ Án Thực Hành\UI_CuoiKy_NhanVien_Thanh\obj\Debug\WindowsFormsApp1.exe
+D:\codetime\he quan tri csdl\Đồ Án Thực Hành\UI_CuoiKy_NhanVien_Thanh\obj\Debug\WindowsFormsApp1.pdb
+D:\Downloads\UI_HuynhQuocThai-20211225T060812Z-001\UI_CuoiKy_NhanVien_Thanh\bin\Debug\WindowsFormsApp1.exe.config
+D:\Downloads\UI_HuynhQuocThai-20211225T060812Z-001\UI_CuoiKy_NhanVien_Thanh\bin\Debug\WindowsFormsApp1.exe
+D:\Downloads\UI_HuynhQuocThai-20211225T060812Z-001\UI_CuoiKy_NhanVien_Thanh\bin\Debug\WindowsFormsApp1.pdb
+D:\Downloads\UI_HuynhQuocThai-20211225T060812Z-001\UI_CuoiKy_NhanVien_Thanh\obj\Debug\UI_CuoiKy_NhanVien.csprojAssemblyReference.cache
+D:\Downloads\UI_HuynhQuocThai-20211225T060812Z-001\UI_CuoiKy_NhanVien_Thanh\obj\Debug\WindowsFormsApp1.Form1.resources
+D:\Downloads\UI_HuynhQuocThai-20211225T060812Z-001\UI_CuoiKy_NhanVien_Thanh\obj\Debug\WindowsFormsApp1.Form2.resources
+D:\Downloads\UI_HuynhQuocThai-20211225T060812Z-001\UI_CuoiKy_NhanVien_Thanh\obj\Debug\WindowsFormsApp1.Form3.resources
+D:\Downloads\UI_HuynhQuocThai-20211225T060812Z-001\UI_CuoiKy_NhanVien_Thanh\obj\Debug\WindowsFormsApp1.Form4.resources
+D:\Downloads\UI_HuynhQuocThai-20211225T060812Z-001\UI_CuoiKy_NhanVien_Thanh\obj\Debug\WindowsFormsApp1.Form5.resources
+D:\Downloads\UI_HuynhQuocThai-20211225T060812Z-001\UI_CuoiKy_NhanVien_Thanh\obj\Debug\WindowsFormsApp1.Form6.resources
+D:\Downloads\UI_HuynhQuocThai-20211225T060812Z-001\UI_CuoiKy_NhanVien_Thanh\obj\Debug\WindowsFormsApp1.Properties.Resources.resources
+D:\Downloads\UI_HuynhQuocThai-20211225T060812Z-001\UI_CuoiKy_NhanVien_Thanh\obj\Debug\UI_CuoiKy_NhanVien.csproj.GenerateResource.cache
+D:\Downloads\UI_HuynhQuocThai-20211225T060812Z-001\UI_CuoiKy_NhanVien_Thanh\obj\Debug\UI_CuoiKy_NhanVien.csproj.CoreCompileInputs.cache
+D:\Downloads\UI_HuynhQuocThai-20211225T060812Z-001\UI_CuoiKy_NhanVien_Thanh\obj\Debug\WindowsFormsApp1.exe
+D:\Downloads\UI_HuynhQuocThai-20211225T060812Z-001\UI_CuoiKy_NhanVien_Thanh\obj\Debug\WindowsFormsApp1.pdb
